@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Users\cfietto\Documents\Cristiano\ShareRH\Projects\ShareRH.Company\src\ShareRH.Company.Infrastructure\ShareRH.Company.Infrastructure.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ShareRH.Company.Domain\ShareRH.Company.Domain.csproj" />
+    <ProjectReference Include="..\ShareRH.Company.Domain\ShareRH.Company.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
